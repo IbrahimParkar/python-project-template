@@ -68,9 +68,10 @@ correctness, or completing the requested task.
 
 ## Commit message rules
 
-When asked for a commit message, inspect and include all current tracked
-changes and untracked files in the repository unless the user explicitly
-specifies otherwise.
+When asked for a commit message, inspect and include all current tracked changes and untracked files in the repository unless the user explicitly specifies otherwise.
+
+For broad changes, use a concise subject followed by bullet points summarizing
+the main work areas. Keep a single-line subject for small, focused changes.
 
 Use these prefixes when suggesting commit messages:
 
