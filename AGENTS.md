@@ -25,6 +25,9 @@ conventions.
 
 ## Code writing rules
 
+When a requested change conflicts with established industry conventions, explain
+the conflict and its tradeoffs to the user before implementing it.
+
 When generating or modifying Python code, keep documentation-complete public
 APIs. Add a module docstring to every public Python module (the file's first
 statement), and add a Google-style docstring to every public class, function,
